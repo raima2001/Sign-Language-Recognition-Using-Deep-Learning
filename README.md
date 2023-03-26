@@ -3,7 +3,7 @@
 This is a project created to recognize Bengali Sign Language for both digits and characters.
 This project utilizes Deep Learning techniques and it employs an ensemble model which uses a Deep-CNN paired with Random Forest/Decision Tree and XGBoost classifier to see which one performs the best. 
 
-After several experimentations, both Digit and Character recognition gave the best performance using the Random Forest classifier. 
+After several experimentations, Character recognition gave the best performance using the XGBoost classifier and for Digit Recognition, it was Random Forest.
 
 The ROC Curve for Digit Recognition using Deep-CNN+Random Forest:
 ![xgboost-d](https://user-images.githubusercontent.com/66533777/227592141-1e93bd58-b9f3-4744-8f97-77c83fad81d2.png)
